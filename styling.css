@@ -1,3 +1,172 @@
 body{
+	background-color: #F8F8FF;
 	background: url(Dark-Abstract-Wallpapers-3.jpg);
+	font-family:Comic Sans MS;
+	text-align: justify;
+}
+#leftPane{
+	position: absolute;
+	left: 28px;
+	top: 130px;
+	border-radius: 20px;
+	width: 200px;
+	background-color: rgba(0,0,0,0.7);
+	height: 517px;
+}
+.link{
+	border-radius: 5px;
+	padding: 10px;
+	background-color: rgba(39,39,39,0.4);
+	margin-top: 30px;
+	margin-left: 20px;
+	color: white;
+	width: 140px;
+	height: 70px;
+}
+#active{
+	-webkit-transform: scale(1.03, 1.03);
+	-webkit-transform: rotate(-10deg);
+	background-color: #3D3D89;
+}
+.link:hover{
+	-webkit-transform: scale(1.03, 1.03);
+	-webkit-transform: rotate(-10deg);
+	background-color: #3D3D89;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 30px;
+	margin-left: 20px;
+	color: white;
+	width: 140px;
+	height: 70px;
+}
+h2{
+	margin-left: 20px;
+	color: #FFFFFF;
+}
+#header{
+	background-color: rgba(0,0,0,0.6);
+	width: 1200px;
+	padding: 10px;
+	height: 85px;
+	position: absolute;
+	border-radius: 20px;
+	left: 28px;
+	top: 8px;
+	color: #F8F8FF;
+	text-align: center;
+}
+h1{
+	position: relative;
+	top: -30px;
+	font-size: 50px;
+}
+#content{
+	position: absolute;
+	top: 130px;
+	left: 250px;
+	border-radius: 20px;
+	width: 1025px;
+	height: 537px;
+	background-color:rgba(0,0,0,0.7);
+	z-index: 0;
+}
+#central{
+	position: absolute;
+	top: 202px;
+	background-color: rgba(39,39,39,0.6);
+	left: 450px;
+	height: 100px;
+	width: 80px;
+	border-radius: 20px;
+	padding: 10px;
+	z-index:3;
+	border: solid rgba(0,0,0,0.4) 10px;
+}
+.pane{
+	z-index: 4;
+	border-radius: 5px;
+	height: 45px;
+	width: 35px;
+	background-color: rgba(185,185,185,0.1);
+}
+.activePane{
+	z-index: 4;
+	border-radius: 5px;
+	height: 45px;
+	width: 35px;
+	background-color: rgba(185,185,185,0.4);
+	-webkit-transform: scale(1.03,1.03);
+}
+#a{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+#b{
+	position: absolute;
+	top: 10px;
+	left: 55px;
+}
+#c{
+	position: absolute;
+	top: 65px;
+	left: 10px;
+}
+#d{
+	position: absolute;
+	top: 65px;
+	left: 55px;
+}
+.contentPane{
+	background-color: rgba(39,39,39,0.5);
+	border-radius: 25px;
+	height: 185px;
+	width: 400px;
+	padding: 20px;
+	z-index: 1;
+	color: white;
+	font-size: 19px;
+	display: none;
+}
+.pane:hover{
+	z-index: 1;
+	background-color: rgba(185,185,185,0.4);
+}
+.activeContentPane{
+	background-color: rgba(39,39,39,0.5);
+	border-radius: 25px;
+	height: 185px;
+	width: 400px;
+	padding: 20px;
+	z-index: 1;
+	color: white;
+	font-size: 19px;
+	display: block;
+}
+#tl{
+	position: absolute;
+	top: 32px;
+	left: 55px;
+}
+#tr{
+	position: absolute;
+	top: 32px;
+	left: 526px;
+}
+#bl{
+	position: absolute;
+	left: 55px;
+	top: 287px;
+}
+#br{
+	position: absolute;
+	left: 526px;
+	top: 287px;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
 }
